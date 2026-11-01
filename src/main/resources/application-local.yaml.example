@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sns
+    username: study_25_user
+    password: "CHANGE_ME"
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
