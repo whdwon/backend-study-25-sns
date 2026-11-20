@@ -1,3 +1,6 @@
 spring:
   application:
     name: backend-study-25-sns
+
+  profiles:
+    default: local
